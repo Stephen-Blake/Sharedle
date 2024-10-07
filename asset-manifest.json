@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.3df2b0e6.css",
-    "main.js": "/react-gh-pages/static/js/main.b71b59a9.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.3df2b0e6.css.map": "/react-gh-pages/static/css/main.3df2b0e6.css.map",
-    "main.b71b59a9.js.map": "/react-gh-pages/static/js/main.b71b59a9.js.map"
+    "main.css": "/Sharedle/static/css/main.3df2b0e6.css",
+    "main.js": "/Sharedle/static/js/main.b71b59a9.js",
+    "index.html": "/Sharedle/index.html",
+    "main.3df2b0e6.css.map": "/Sharedle/static/css/main.3df2b0e6.css.map",
+    "main.b71b59a9.js.map": "/Sharedle/static/js/main.b71b59a9.js.map"
   },
   "entrypoints": [
     "static/css/main.3df2b0e6.css",
