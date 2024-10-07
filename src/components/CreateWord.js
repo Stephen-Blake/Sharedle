@@ -27,11 +27,10 @@ function wordGen(
   return (
     difficulty,
     word
-  ) => `${window.location.hostname}:3000?w=${CryptoJS.enc.Base64.stringify(
+  ) => `${window.location.hostname}/Sharedle?w=${CryptoJS.enc.Base64.stringify(
     CryptoJS.enc.Utf8.parse(word !== "" ? word : currentWord)
   )}&d=${difficulty !== "" ? difficulty : currentDifficulty}`
-}
-
+} // Updated to work with Git Pages
 
 function CreateWord({wordRef, currentWord, currentDifficulty}) {
   const [word, setWord] = useState("");

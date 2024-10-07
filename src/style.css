@@ -1,5 +1,5 @@
 html {
-    background: #fab1a0;
+    background: #dfe6e9;
     box-sizing: content-box;
 }
 
@@ -27,7 +27,6 @@ div#root {
 .bottom-wrap {
     padding-bottom: 90px;
 }
-
 
 .title {
     font-size: 60px;
@@ -86,7 +85,7 @@ div#root {
 }
 
 .keyboardSingle {
-    background: #ff7675;
+    background: #808e9b;
     color: #fff;
     margin: 5px;
     padding: 15px 45px;
@@ -118,17 +117,17 @@ div#root {
 }
 
 .keyboardSingle:hover {
-    background-color: #fd79a8;
+    background-color: #485460;
 }
 
 .letterSingle[green="active"] {
-    background: #a29bfe;
-    border-color: #a29bfe;
+    background: #74b9ff;
+    border-color: #74b9ff;
 }
 
 .letterSingle[gold="active"] {
-    background: #fdcb6e;
-    border-color: #fdcb6e;
+    background: #ffc048;
+    border-color: #ffc048;
 }
 
 .createWord {
@@ -136,23 +135,9 @@ div#root {
     position: relative;
 }
 
-.createWord::before {
-    content: "";
-    border-top: solid 3px;
-    border-radius: 15px;
-    width: 300px;
-    position: absolute;
-    height: 3px;
-    top: -15px;
-    left: 0;
-    right: 0;
-    margin: auto;
-    opacity: 0.1;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
-}
+/*
+
+GH Issue
 
 .createWord {
     label {
@@ -206,6 +191,59 @@ div#root {
         justify-content: center;
     }
 
+}
+
+*/
+
+.createWord label {
+    font-weight: 700;
+    display: block;
+}
+
+.createWord .share {
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.createWord input,
+.createWord select {
+    border: 2px solid #2d3436;
+    color: #2d3436;
+    margin: 5px;
+    width: 300px;
+    font-size: 16px;
+    border-radius: 15px;
+    padding: 4.5px 0px;
+    background: transparent;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.createWord input:focus,
+.createWord select:focus {
+    outline: 1px dashed #a29bfe;
+
+}
+
+.createWord input[type="submit"] {
+    width: 100px;
+    cursor: pointer;
+}
+
+.createWord input[type="submit"]:hover {
+    background-color: #fff;
+    color: #2d3436;
+}
+
+.createWord form {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .title-state {

@@ -119,7 +119,7 @@ function App() {
         currentDifficulty={difficulty}
       />
     </div>
-    <Accreditations />
+    {/* <Accreditations /> */}
    </>
   );
 
