@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Sharedle/static/css/main.4de74078.css",
-    "main.js": "/Sharedle/static/js/main.015f1398.js",
+    "main.js": "/Sharedle/static/js/main.70568c70.js",
     "index.html": "/Sharedle/index.html",
     "main.4de74078.css.map": "/Sharedle/static/css/main.4de74078.css.map",
-    "main.015f1398.js.map": "/Sharedle/static/js/main.015f1398.js.map"
+    "main.70568c70.js.map": "/Sharedle/static/js/main.70568c70.js.map"
   },
   "entrypoints": [
     "static/css/main.4de74078.css",
-    "static/js/main.015f1398.js"
+    "static/js/main.70568c70.js"
   ]
 }
